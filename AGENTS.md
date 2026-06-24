@@ -8,6 +8,7 @@ This repository contains portable AI skills intended to work across Codex, Claud
 - A skill directory should contain a `SKILL.md`.
 - The skill directory name should match the `name` field in that skill's frontmatter.
 - `skills/llms.txt` is the lightweight discovery index for agents and tooling that prefer a single skill catalog file.
+- `skills/manifest.json` is the neutral machine-readable catalog for agents or tooling that want JSON metadata.
 
 ## SKILL.md requirements
 
@@ -22,9 +23,11 @@ This repository contains portable AI skills intended to work across Codex, Claud
 - Prefer lowercase, hyphenated skill names.
 - Keep descriptions explicit about when the skill should trigger.
 - Avoid agent-specific instructions inside the skill body unless they are broadly compatible.
+- Keep shared discovery metadata agent-neutral first; treat agent-specific plugin files as optional adapters.
 - When adding a new skill, also update:
   - `README.md`
   - `skills/llms.txt`
+  - `skills/manifest.json`
   - install instructions if a new agent target is introduced
 
 ## Installation targets

@@ -4,6 +4,8 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SOURCE_DIR="$SCRIPT_DIR/skills"
+LLMS_INDEX="$SOURCE_DIR/llms.txt"
+MANIFEST_JSON="$SOURCE_DIR/manifest.json"
 
 usage() {
   cat <<'EOF'
@@ -93,6 +95,16 @@ copy_skills() {
     cp -R "$dir" "$target_dir/$name"
     copied=$((copied + 1))
   done
+
+  # Shared discovery files help agent/tooling integrations that prefer
+  # a single index or manifest alongside the installed skills directory.
+  if [ -f "$LLMS_INDEX" ]; then
+    cp "$LLMS_INDEX" "$target_dir/llms.txt"
+  fi
+
+  if [ -f "$MANIFEST_JSON" ]; then
+    cp "$MANIFEST_JSON" "$target_dir/manifest.json"
+  fi
 
   printf 'Installed %d skills into %s\n' "$copied" "$target_dir"
 }

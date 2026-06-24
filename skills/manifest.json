@@ -1,0 +1,121 @@
+{
+  "name": "codex-global-skills",
+  "version": 1,
+  "description": "Portable skill bundle for multiple AI agents.",
+  "supported_agents": [
+    "codex",
+    "claude",
+    "cursor",
+    "gemini",
+    "antigravity",
+    "opencode",
+    "pi"
+  ],
+  "discovery_files": [
+    "llms.txt",
+    "manifest.json"
+  ],
+  "skills_directory": "skills",
+  "skills": [
+    {
+      "name": "brandkit",
+      "description": "Premium brand-kit generation for logo systems, identity boards, and visual guidelines."
+    },
+    {
+      "name": "brutalist-skill",
+      "description": "Industrial brutalist UI direction with Swiss-grid, terminal, and tactical interface aesthetics."
+    },
+    {
+      "name": "bug-trace-root-cause",
+      "description": "Structured debugging workflow for tracing a bug from symptom to proven root cause."
+    },
+    {
+      "name": "frontend-performance-review",
+      "description": "Frontend performance and stability review for leaks, jank, excessive re-renders, and missing cleanup."
+    },
+    {
+      "name": "gpt-tasteskill",
+      "description": "High-end editorial frontend direction with bold layout variance and advanced motion ideas."
+    },
+    {
+      "name": "gsap-core",
+      "description": "GSAP core API guidance for basic animation, easing, transforms, and stagger."
+    },
+    {
+      "name": "gsap-frameworks",
+      "description": "GSAP usage in Vue, Svelte, Nuxt, and other non-React frameworks."
+    },
+    {
+      "name": "gsap-performance",
+      "description": "GSAP performance guidance for smooth animation and lower layout thrash."
+    },
+    {
+      "name": "gsap-plugins",
+      "description": "GSAP plugin guidance for ScrollTo, Flip, Draggable, SplitText, and related plugins."
+    },
+    {
+      "name": "gsap-react",
+      "description": "GSAP patterns for React and Next.js with refs, useGSAP, and cleanup."
+    },
+    {
+      "name": "gsap-scrolltrigger",
+      "description": "Scroll-driven GSAP animation with pinning, scrubbing, and trigger setup."
+    },
+    {
+      "name": "gsap-timeline",
+      "description": "GSAP timeline sequencing for multi-step animation choreography."
+    },
+    {
+      "name": "gsap-utils",
+      "description": "GSAP utility helpers like clamp, mapRange, wrap, random, and interpolation."
+    },
+    {
+      "name": "imagegen-frontend-mobile",
+      "description": "Premium mobile app concept generation through image-first UI exploration."
+    },
+    {
+      "name": "imagegen-frontend-web",
+      "description": "Premium website section-by-section image reference generation."
+    },
+    {
+      "name": "image-to-code-skill",
+      "description": "Image-first workflow that creates or uses design references before implementing frontend code."
+    },
+    {
+      "name": "minimalist-skill",
+      "description": "Editorial minimalist interface direction with restrained color and clean hierarchy."
+    },
+    {
+      "name": "output-skill",
+      "description": "Enforces complete outputs without placeholders or silent truncation."
+    },
+    {
+      "name": "project-quick-onboard",
+      "description": "Fast technical onboarding for an unfamiliar repo, stack, structure, and likely entry points."
+    },
+    {
+      "name": "redesign-skill",
+      "description": "Upgrades an existing website or app without rewriting it from scratch."
+    },
+    {
+      "name": "soft-skill",
+      "description": "High-end design polish rules for typography, spacing, surfaces, and overall premium feel."
+    },
+    {
+      "name": "solution-direction",
+      "description": "Suggests solution directions and tradeoffs without jumping straight into implementation."
+    },
+    {
+      "name": "stitch-skill",
+      "description": "Generates DESIGN.md guidance for Google Stitch and similar AI-driven design workflows."
+    },
+    {
+      "name": "taste-skill",
+      "description": "Anti-slop frontend direction for landing pages, portfolios, and redesigns."
+    },
+    {
+      "name": "taste-skill-v1",
+      "description": "Legacy v1 version of the taste skill for older workflows."
+    }
+  ]
+}

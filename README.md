@@ -1,12 +1,82 @@
 # Codex Global Skills Snapshot
 
-Bo skill nay da duoc chuan hoa de dung duoc cho nhieu AI agent khac nhau, khong chi rieng Codex.
+<p align="center">
+  <a href="./README.md"><img src="https://img.shields.io/badge/Language-EN-black?style=for-the-badge" alt="English"></a>
+</p>
 
-## Ho tro agent nao
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=111111&height=180&section=header&text=Portable%20AI%20Skills&fontColor=ffffff&fontSize=42&fontAlignY=36&desc=One%20bundle%20for%20Codex,%20Claude,%20Cursor,%20Gemini,%20OpenCode,%20and%20Pi&descAlignY=58&animation=fadeIn" alt="Portable AI Skills banner">
+</p>
 
-Repo hien ho tro cai dat cho:
+<p align="center">
+  <img src="https://img.shields.io/badge/Skills-25-black?style=flat-square" alt="25 skills">
+  <img src="https://img.shields.io/badge/Supported_Agents-6-black?style=flat-square" alt="6 supported agents">
+  <img src="https://img.shields.io/badge/Install-Interactive-black?style=flat-square" alt="interactive install">
+  <img src="https://img.shields.io/badge/Sync-Portable-black?style=flat-square" alt="portable sync">
+</p>
 
-| Agent | Thu muc mac dinh |
+<p align="center">
+  <img src="https://img.shields.io/badge/Codex-OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="Codex">
+  <img src="https://img.shields.io/badge/Claude-Code_DCC?style=flat-square&logo=anthropic&logoColor=white&color=D97757" alt="Claude Code">
+  <img src="https://img.shields.io/badge/Cursor-AI-111111?style=flat-square" alt="Cursor">
+  <img src="https://img.shields.io/badge/Gemini-Google-4285F4?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini">
+  <img src="https://img.shields.io/badge/OpenCode-CLI-0F172A?style=flat-square&logo=gnubash&logoColor=white" alt="OpenCode">
+  <img src="https://img.shields.io/badge/Pi-Agent-6D28D9?style=flat-square" alt="Pi">
+</p>
+
+> A portable skill pack designed to work across multiple AI agents, not just Codex.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Design-Frontend-0F172A?style=for-the-badge&logo=figma&logoColor=white" alt="Design and frontend">
+  <img src="https://img.shields.io/badge/Debug-Root_Cause-1F2937?style=for-the-badge&logo=datadog&logoColor=white" alt="Debug and root cause">
+  <img src="https://img.shields.io/badge/Animation-GSAP-166534?style=for-the-badge&logo=greensock&logoColor=white" alt="GSAP animation">
+  <img src="https://img.shields.io/badge/Workflow-Output-7C2D12?style=for-the-badge&logo=markdown&logoColor=white" alt="Workflow and output">
+</p>
+
+## Why This Exists
+
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <img src="https://img.shields.io/badge/Portable-Shared%20Rules-111111?style=for-the-badge&logo=json&logoColor=white" alt="Portable">
+      <br><br>
+      One skill catalog, shared naming, and neutral discovery metadata so the same bundle can travel between agents cleanly.
+    </td>
+    <td width="33%" align="center">
+      <img src="https://img.shields.io/badge/Practical-Install%20Fast-111111?style=for-the-badge&logo=gnubash&logoColor=white" alt="Practical">
+      <br><br>
+      Install everything or only a selected subset with a single script, then keep local skills synced back into the repo.
+    </td>
+    <td width="33%" align="center">
+      <img src="https://img.shields.io/badge/Curated-High%20Signal-111111?style=for-the-badge&logo=readme&logoColor=white" alt="Curated">
+      <br><br>
+      Focused skills for design, debugging, onboarding, GSAP, and output quality instead of a noisy generic catalog.
+    </td>
+  </tr>
+</table>
+
+## Quick Overview
+
+| Need | Jump to |
+|---|---|
+| Install right away | [Install on this machine](#install-on-this-machine) |
+| Pick the right skill fast | [Quick recommendations](#quick-recommendations) |
+| Browse the full catalog | [Skill catalog](#skill-catalog) |
+| See repo metadata | [Compatibility metadata](#compatibility-metadata) |
+
+## Visual Map
+
+<p align="center">
+  <img src="https://img.shields.io/badge/01-Install-111111?style=flat-square&logo=gnubash&logoColor=white" alt="Install">
+  <img src="https://img.shields.io/badge/02-Discover-111111?style=flat-square&logo=readme&logoColor=white" alt="Discover">
+  <img src="https://img.shields.io/badge/03-Select-111111?style=flat-square&logo=googleanalytics&logoColor=white" alt="Select">
+  <img src="https://img.shields.io/badge/04-Use-111111?style=flat-square&logo=openai&logoColor=white" alt="Use">
+  <img src="https://img.shields.io/badge/05-Sync-111111?style=flat-square&logo=git&logoColor=white" alt="Sync">
+</p>
+
+## Supported Agents
+
+| Agent | Default directory |
 |---|---|
 | `Codex` | `~/.codex/skills` |
 | `Claude Code` | `~/.claude/skills` |
@@ -15,21 +85,30 @@ Repo hien ho tro cai dat cho:
 | `OpenCode` | `~/.config/opencode/skills` |
 | `Pi` | `~/.pi/agent/skills` |
 
-## Cai vao may nay
+<p align="center">
+  <img src="https://img.shields.io/badge/Codex-OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="Codex">
+  <img src="https://img.shields.io/badge/Claude-Anthropic-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude">
+  <img src="https://img.shields.io/badge/Cursor-Code-111111?style=for-the-badge" alt="Cursor">
+  <img src="https://img.shields.io/badge/Gemini-Google-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini">
+  <img src="https://img.shields.io/badge/OpenCode-CLI-0F172A?style=for-the-badge&logo=gnubash&logoColor=white" alt="OpenCode">
+  <img src="https://img.shields.io/badge/Pi-Agent-6D28D9?style=for-the-badge" alt="Pi">
+</p>
 
-Cai cho `Codex`:
+## Install on This Machine
+
+Fastest command for `Codex`:
 
 ```bash
 bash codex-global-skills/install.sh
 ```
 
-Mac dinh lenh tren se:
+By default, this command will:
 
-1. hien thi tat ca skills trong terminal
-2. cho user nhap danh sach skill neu muon chon rieng
-3. neu bam `Enter` de trong, script se cai `tat ca`
+1. print all available skills in the terminal
+2. let the user enter a custom subset if needed
+3. install `all` skills if the prompt is left empty
 
-Cai cho agent cu the:
+Install for a specific agent:
 
 ```bash
 bash codex-global-skills/install.sh --agent claude
@@ -37,130 +116,174 @@ bash codex-global-skills/install.sh --agent cursor
 bash codex-global-skills/install.sh --agent gemini
 ```
 
-Cai cho tat ca agent ho tro:
+Install for every supported agent:
 
 ```bash
 bash codex-global-skills/install.sh --agent all
 ```
 
-Neu can chi dinh thu muc thu cong:
+Install into a custom directory:
 
 ```bash
 bash codex-global-skills/install.sh --target /path/to/skills
 ```
 
-## Chon skill khi cai
+## Choosing Skills During Install
 
-Mac dinh khi chay lenh cai, terminal se hien tat ca skills va cho user thao tac.
+When the installer runs, it shows the full skill list and lets the user choose interactively.
 
-Neu khong nhap gi, script se cai tat ca skills.
+If nothing is entered, it installs everything.
 
-Cai mot so skill cu the:
+Install only a few skills:
 
 ```bash
 bash codex-global-skills/install.sh --agent claude --skills project-quick-onboard,solution-direction
 ```
 
-Hoac chay lenh binh thuong roi nhap truc tiep trong terminal:
+Or run the normal command and type the selection directly in the terminal:
 
 ```bash
 bash codex-global-skills/install.sh --agent cursor
 ```
 
-Xem danh sach skill hop le:
+List valid skills:
 
 ```bash
 bash codex-global-skills/install.sh --list-skills
 ```
 
-## Cach goi skill
+## How to Invoke a Skill
 
-Co the goi truc tiep ten skill trong prompt. Vi du:
-
-```text
-Dung skill `project-quick-onboard` de tom tat nhanh repo nay.
-```
-
-Hoac ket hop voi yeu cau cu the hon:
+You can call a skill directly by name in the prompt. Examples:
 
 ```text
-Dung `bug-trace-root-cause` de lan nguoc loi nay tu log den nguyen nhan goc.
+Use `project-quick-onboard` to summarize this repository quickly.
 ```
 
-## Danh sach skill
+```text
+Use `bug-trace-root-cause` to trace this issue from logs back to the real root cause.
+```
 
-### Design va Frontend
+## Featured Skill Families
 
-| Skill | Cong dung | Vi du su dung |
-|---|---|---|
-| `brandkit` | Tao brand kit cao cap, guideline, logo system, identity board. | "Dung `brandkit` de tao brand guideline cho mot startup AI security." |
-| `brutalist-skill` | Dinh huong UI brutalist cong nghiep, raw, Swiss grid, terminal style. | "Dung `brutalist-skill` de redesign landing page theo huong industrial UI." |
-| `gpt-tasteskill` | Nang cap UX/UI frontend theo huong editorial, motion, AIDA, layout bien hoa. | "Dung `gpt-tasteskill` de lam homepage premium hon, bo layout generic." |
-| `imagegen-frontend-mobile` | Tao concept man hinh mobile app cao cap bang image generation. | "Dung `imagegen-frontend-mobile` de tao concept 3 man onboarding cho app fitness." |
-| `imagegen-frontend-web` | Tao image reference tung section cho website/landing page. | "Dung `imagegen-frontend-web` de tao image reference cho 6 section cua landing page SaaS." |
-| `image-to-code-skill` | Sinh image design truoc roi implement frontend theo image do. | "Dung `image-to-code-skill` de tao concept hero truoc, sau do code lai bang React." |
-| `minimalist-skill` | Dinh huong UI toi gian, editorial, monochrome, flat va sach. | "Dung `minimalist-skill` de lam lai portfolio theo style toi gian, nhieu khoang tho." |
-| `redesign-skill` | Nang cap du an frontend san co theo huong premium ma khong vo giao dien hien huu. | "Dung `redesign-skill` de lam dep lai dashboard nay ma khong pha vo flow cu." |
-| `soft-skill` | Rule thiet ke high-end agency, font, spacing, shadow, polish. | "Dung `soft-skill` de polish visual system cho trang pricing." |
-| `stitch-skill` | Tao `DESIGN.md` semantic design system cho Google Stitch. | "Dung `stitch-skill` de viet `DESIGN.md` cho bo component moi." |
-| `taste-skill` | Anti-slop frontend skill v2 cho landing page, portfolio, redesign. | "Dung `taste-skill` de thiet ke landing page dam chat hon, tranh kieu AI-safe." |
-| `taste-skill-v1` | Ban v1 cua taste skill, giu de tuong thich voi workflow cu. | "Dung `taste-skill-v1` vi project nay dang theo workflow cu." |
+<table>
+  <tr>
+    <td width="25%" align="center">
+      <img src="https://img.shields.io/badge/Design-Frontend-0F172A?style=for-the-badge&logo=figma&logoColor=white" alt="Design">
+      <br><br>
+      `brandkit` `taste-skill` `redesign-skill` `image-to-code-skill`
+    </td>
+    <td width="25%" align="center">
+      <img src="https://img.shields.io/badge/Debug-Investigate-0F172A?style=for-the-badge&logo=sentry&logoColor=white" alt="Debug">
+      <br><br>
+      `bug-trace-root-cause` `solution-direction` `frontend-performance-review`
+    </td>
+    <td width="25%" align="center">
+      <img src="https://img.shields.io/badge/Animation-GSAP-166534?style=for-the-badge&logo=greensock&logoColor=white" alt="GSAP">
+      <br><br>
+      `gsap-core` `gsap-react` `gsap-scrolltrigger` `gsap-timeline`
+    </td>
+    <td width="25%" align="center">
+      <img src="https://img.shields.io/badge/Workflow-Quality-7C2D12?style=for-the-badge&logo=markdown&logoColor=white" alt="Workflow">
+      <br><br>
+      `project-quick-onboard` `output-skill` `stitch-skill`
+    </td>
+  </tr>
+</table>
 
-### Debug, Review va Onboarding
+## Quick Recommendations
 
-| Skill | Cong dung | Vi du su dung |
-|---|---|---|
-| `bug-trace-root-cause` | Dieu tra bug tu trieu chung den nguyen nhan goc, tranh fix kieu va tam. | "Dung `bug-trace-root-cause` de tim vi sao API nay bi timeout ngau nhien." |
-| `frontend-performance-review` | Review performance frontend, bat memory leak, cleanup thieu, render thua, lag va jank. | "Dung `frontend-performance-review` de kiem tra trang nay co memory leak hay re-render du thua khong." |
-| `project-quick-onboard` | Nhan repo moi va tom tat nhanh stack, entrypoint, cau truc, flow chinh va cho nen doc truoc. | "Dung `project-quick-onboard` de onboard nhanh repo nay truoc khi sua code." |
-| `solution-direction` | De xuat huong giai quyet cho van de, so sanh option va khuyen nghi huong di ma chua implement. | "Dung `solution-direction` de chi de xuat huong xu ly loi nay, chua can sua code." |
-
-### Output va Workflow
-
-| Skill | Cong dung | Vi du su dung |
-|---|---|---|
-| `output-skill` | Ep model xuat day du, tranh placeholder va cat ngan output. | "Dung `output-skill` de sinh day du toan bo component, khong duoc viet placeholder." |
-
-### GSAP va Animation
-
-| Skill | Cong dung | Vi du su dung |
-|---|---|---|
-| `gsap-core` | Huong dan dung GSAP core API cho animation co ban. | "Dung `gsap-core` de animate card vao man hinh bang `gsap.to()`." |
-| `gsap-frameworks` | Dung GSAP trong Vue, Svelte va framework non-React. | "Dung `gsap-frameworks` de setup animation trong Nuxt page nay." |
-| `gsap-performance` | Toi uu hieu nang animation GSAP, giam lag va layout thrash. | "Dung `gsap-performance` de toi uu scroll animation dang bi jank." |
-| `gsap-plugins` | Huong dan cac plugin GSAP nhu ScrollTo, Flip, Draggable, SplitText. | "Dung `gsap-plugins` de them `SplitText` va `Flip` vao interaction nay." |
-| `gsap-react` | Dung GSAP voi React, `useGSAP`, refs, cleanup. | "Dung `gsap-react` de viet lai animation hero trong component React nay." |
-| `gsap-scrolltrigger` | Lam animation theo scroll, pin, scrub bang ScrollTrigger. | "Dung `gsap-scrolltrigger` de tao section pin theo scroll cho landing page." |
-| `gsap-timeline` | Choreograph animation bang `gsap.timeline()`. | "Dung `gsap-timeline` de dong bo animation header, image va CTA." |
-| `gsap-utils` | Su dung `gsap.utils` nhu clamp, mapRange, random, wrap. | "Dung `gsap-utils` de map gia tri scroll sang scale va opacity." |
-
-## Goi y chon nhanh
-
-Neu chua biet bat dau tu dau, co the map nhanh nhu sau:
-
-| Nhu cau | Skill nen goi |
+| Need | Recommended skill |
 |---|---|
-| Muon doc nhanh repo moi | `project-quick-onboard` |
-| Muon tim nguyen nhan bug | `bug-trace-root-cause` |
-| Muon xin huong giai quyet truoc khi lam | `solution-direction` |
-| Muon review lag, leak, jank | `frontend-performance-review` |
-| Muon redesign UI san co | `redesign-skill`, `taste-skill` |
-| Muon len visual direction | `brandkit`, `soft-skill`, `minimalist-skill`, `brutalist-skill` |
-| Muon generate concept bang hinh | `imagegen-frontend-web`, `imagegen-frontend-mobile` |
-| Muon code frontend theo image tham chieu | `image-to-code-skill` |
-| Muon lam animation GSAP | `gsap-core`, `gsap-timeline`, `gsap-scrolltrigger`, `gsap-react` |
+| Read a new repo quickly | `project-quick-onboard` |
+| Find the real cause of a bug | `bug-trace-root-cause` |
+| Get solution options before implementing | `solution-direction` |
+| Review lag, leaks, or jank | `frontend-performance-review` |
+| Redesign an existing UI | `redesign-skill`, `taste-skill` |
+| Build a visual direction | `brandkit`, `soft-skill`, `minimalist-skill`, `brutalist-skill` |
+| Generate visual concepts from images | `imagegen-frontend-web`, `imagegen-frontend-mobile` |
+| Build frontend from image references | `image-to-code-skill` |
+| Create GSAP animation flows | `gsap-core`, `gsap-timeline`, `gsap-scrolltrigger`, `gsap-react` |
 
-## Metadata da them
+## Skill Catalog
 
-De repo nay portable hon giua cac agent, da bo sung:
+<details open>
+<summary><strong>Design and Frontend</strong></summary>
 
-- [`skills/llms.txt`](./skills/llms.txt): file index de agent/tooling discover skill nhanh
-- [`.claude-plugin/plugin.json`](./.claude-plugin/plugin.json): metadata cho Claude-style plugin discovery
-- [`.cursor-plugin/plugin.json`](./.cursor-plugin/plugin.json): metadata cho Cursor-style plugin discovery
-- [`AGENTS.md`](./AGENTS.md): convention de giu repo tiep tuc tuong thich da agent
+| Skill | Purpose | Example usage |
+|---|---|---|
+| `brandkit` | Create premium brand kits, guidelines, logo systems, and identity boards. | "Use `brandkit` to create a brand guideline for an AI security startup." |
+| `brutalist-skill` | Push UI toward an industrial brutalist style with raw Swiss-grid and terminal energy. | "Use `brutalist-skill` to redesign the landing page in an industrial UI direction." |
+| `gpt-tasteskill` | Upgrade frontend UX/UI with editorial styling, motion, AIDA, and less-generic layouts. | "Use `gpt-tasteskill` to make the homepage feel more premium and less generic." |
+| `imagegen-frontend-mobile` | Generate high-end mobile app screen concepts with image generation. | "Use `imagegen-frontend-mobile` to create a 3-screen onboarding concept for a fitness app." |
+| `imagegen-frontend-web` | Generate section-by-section image references for websites and landing pages. | "Use `imagegen-frontend-web` to create image references for 6 sections of a SaaS landing page." |
+| `image-to-code-skill` | Generate a visual concept first, then implement the frontend from that direction. | "Use `image-to-code-skill` to create the hero concept first, then rebuild it in React." |
+| `minimalist-skill` | Push the UI toward a clean editorial monochrome minimalist style. | "Use `minimalist-skill` to redesign the portfolio with a quieter, more spacious layout." |
+| `redesign-skill` | Upgrade an existing frontend to feel more premium without breaking the product flow. | "Use `redesign-skill` to improve this dashboard without breaking the current flow." |
+| `soft-skill` | Apply high-end visual rules for typography, spacing, shadow, and polish. | "Use `soft-skill` to polish the visual system for the pricing page." |
+| `stitch-skill` | Create semantic `DESIGN.md` files for Google Stitch workflows. | "Use `stitch-skill` to write a `DESIGN.md` for the new component set." |
+| `taste-skill` | Anti-slop frontend skill v2 for landing pages, portfolios, and redesign work. | "Use `taste-skill` to design a landing page that feels bolder and less AI-safe." |
+| `taste-skill-v1` | Original v1 version kept for compatibility with older workflows. | "Use `taste-skill-v1` because this project still follows the older workflow." |
 
-## Thu muc lien quan
+</details>
 
-- [`install.sh`](./install.sh): copy skills vao thu muc cua agent duoc chon
-- [`sync-from-local.sh`](./sync-from-local.sh): dong bo nguoc tu thu muc skill tren may local ve repo nay
-- [`skills/`](./skills): noi chua tung skill
+<details>
+<summary><strong>Debug, Review, and Onboarding</strong></summary>
+
+| Skill | Purpose | Example usage |
+|---|---|---|
+| `bug-trace-root-cause` | Investigate bugs from symptom to root cause instead of papering over them. | "Use `bug-trace-root-cause` to find out why this API times out randomly." |
+| `frontend-performance-review` | Review frontend performance for leaks, missing cleanup, extra renders, lag, and jank. | "Use `frontend-performance-review` to check whether this page has memory leaks or redundant re-renders." |
+| `project-quick-onboard` | Summarize a new repo quickly: stack, entry points, layout, main flow, and what to read first. | "Use `project-quick-onboard` to onboard this repository before editing code." |
+| `solution-direction` | Compare solution options and recommend a direction before implementation starts. | "Use `solution-direction` to propose options before we start implementing the fix." |
+
+</details>
+
+<details>
+<summary><strong>Output and Workflow</strong></summary>
+
+| Skill | Purpose | Example usage |
+|---|---|---|
+| `output-skill` | Force complete output and avoid placeholders or cut-off generations. | "Use `output-skill` to generate the full component with no placeholders." |
+
+</details>
+
+<details>
+<summary><strong>GSAP and Animation</strong></summary>
+
+| Skill | Purpose | Example usage |
+|---|---|---|
+| `gsap-core` | Teach the core GSAP API for standard animation work. | "Use `gsap-core` to animate cards into view with `gsap.to()`." |
+| `gsap-frameworks` | Use GSAP inside Vue, Svelte, and other non-React frameworks. | "Use `gsap-frameworks` to set up animation inside this Nuxt page." |
+| `gsap-performance` | Optimize GSAP animation performance and reduce jank or layout thrashing. | "Use `gsap-performance` to optimize this scroll animation that feels janky." |
+| `gsap-plugins` | Guide usage of GSAP plugins such as ScrollTo, Flip, Draggable, and SplitText. | "Use `gsap-plugins` to add `SplitText` and `Flip` to this interaction." |
+| `gsap-react` | Use GSAP with React, including `useGSAP`, refs, and cleanup. | "Use `gsap-react` to rebuild this hero animation inside a React component." |
+| `gsap-scrolltrigger` | Build scroll-based animation with pinning and scrubbing. | "Use `gsap-scrolltrigger` to create a pinned scroll section for this landing page." |
+| `gsap-timeline` | Choreograph multi-step animation with `gsap.timeline()`. | "Use `gsap-timeline` to synchronize the header, image, and CTA animation." |
+| `gsap-utils` | Use `gsap.utils` helpers such as clamp, mapRange, random, and wrap. | "Use `gsap-utils` to map scroll values into scale and opacity." |
+
+</details>
+
+## Compatibility Metadata
+
+This repository uses a shared-first compatibility model:
+
+- <img src="https://img.shields.io/badge/manifest.json-Universal-111111?style=flat-square&logo=json&logoColor=white" alt="manifest.json"> [`skills/manifest.json`](./skills/manifest.json): neutral machine-readable catalog for any agent or tool that wants a shared JSON manifest
+- <img src="https://img.shields.io/badge/llms.txt-Index-111111?style=flat-square&logo=readme&logoColor=white" alt="llms.txt"> [`skills/llms.txt`](./skills/llms.txt): lightweight text index for agents and tooling that prefer a single discovery file
+- <img src="https://img.shields.io/badge/AGENTS.md-Convention-0F172A?style=flat-square&logo=markdown&logoColor=white" alt="AGENTS.md"> [`AGENTS.md`](./AGENTS.md): shared repo conventions for keeping skills portable
+- <img src="https://img.shields.io/badge/Claude-Adapter-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude adapter"> [`.claude-plugin/plugin.json`](./.claude-plugin/plugin.json): optional Claude-specific adapter because Claude can read that plugin convention
+- <img src="https://img.shields.io/badge/Cursor-Adapter-111111?style=flat-square" alt="Cursor adapter"> [`.cursor-plugin/plugin.json`](./.cursor-plugin/plugin.json): optional Cursor-specific adapter because Cursor supports that plugin convention
+
+`Codex`, `Gemini / Antigravity`, `OpenCode`, and `Pi` do not currently need their own top-level plugin folders in this repository. They are supported through the installed `skills/` directory plus the shared discovery files above.
+
+When you install skills with [`install.sh`](./install.sh), the script copies `llms.txt` and `manifest.json` into the target skills directory alongside the selected skill folders so every supported agent gets the same core discovery metadata. The Claude and Cursor plugin folders are only extra adapters, not the main compatibility layer.
+
+## Related Files
+
+- [`install.sh`](./install.sh): copies skills into the selected agent directory
+- [`sync-from-local.sh`](./sync-from-local.sh): syncs local installed skills back into this repo
+- [`skills/`](./skills): the skill catalog itself
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=111111&height=120&section=footer" alt="Footer banner">
+</p>
