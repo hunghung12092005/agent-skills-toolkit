@@ -1,8 +1,6 @@
-# Global Skills Snapshot
-
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=111111&height=180&section=header&text=Portable%20AI%20Skills&fontColor=ffffff&fontSize=42&fontAlignY=36&desc=One%20bundle%20for%20Codex,%20Claude,%20Cursor,%20Gemini,%20OpenCode,%20and%20Pi&descAlignY=58&animation=fadeIn" alt="Portable AI Skills banner">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:2563EB,100:38BDF8&height=180&section=header&text=Portable%20AI%20Skills&fontColor=ffffff&fontSize=42&fontAlignY=36&desc=One%20bundle%20for%20Codex,%20Claude,%20Cursor,%20Gemini,%20OpenCode,%20and%20Pi&descAlignY=58&animation=fadeIn" alt="Portable AI Skills banner">
 </p>
 
 <p align="center">
@@ -104,11 +102,14 @@ Install into a custom directory:
 bash codex-global-skills/install.sh --target /path/to/skills
 ```
 
+## Origin Notes
+
+- `taste-skill` and `taste-skill-v1` were imported from the original taste-skill repository and kept here as part of this bundled catalog.
+- All `gsap-*` skills were imported from the original [`gsap-skills`](../gsap-skills/README.md) repository and included here for convenience.
 
 ## Skill Catalog
 
-<details open>
-<summary><strong>Design and Frontend</strong></summary>
+### Design and Frontend
 
 | Skill | Purpose | Example usage |
 |---|---|---|
@@ -122,13 +123,10 @@ bash codex-global-skills/install.sh --target /path/to/skills
 | `redesign-skill` | Upgrade an existing frontend to feel more premium without breaking the product flow. | "Use `redesign-skill` to improve this dashboard without breaking the current flow." |
 | `soft-skill` | Apply high-end visual rules for typography, spacing, shadow, and polish. | "Use `soft-skill` to polish the visual system for the pricing page." |
 | `stitch-skill` | Create semantic `DESIGN.md` files for Google Stitch workflows. | "Use `stitch-skill` to write a `DESIGN.md` for the new component set." |
-| `taste-skill` | Anti-slop frontend skill v2 for landing pages, portfolios, and redesign work. | "Use `taste-skill` to design a landing page that feels bolder and less AI-safe." |
-| `taste-skill-v1` | Original v1 version kept for compatibility with older workflows. | "Use `taste-skill-v1` because this project still follows the older workflow." |
+| `taste-skill` | Anti-slop frontend skill v2 for landing pages, portfolios, and redesign work. Origin: imported from the original taste-skill repository. | "Use `taste-skill` to design a landing page that feels bolder and less AI-safe." |
+| `taste-skill-v1` | Original v1 version kept for compatibility with older workflows. Origin: imported from the original taste-skill repository. | "Use `taste-skill-v1` because this project still follows the older workflow." |
 
-</details>
-
-<details>
-<summary><strong>Debug, Review, and Onboarding</strong></summary>
+### Debug, Review, and Onboarding
 
 | Skill | Purpose | Example usage |
 |---|---|---|
@@ -137,32 +135,24 @@ bash codex-global-skills/install.sh --target /path/to/skills
 | `project-quick-onboard` | Summarize a new repo quickly: stack, entry points, layout, main flow, and what to read first. | "Use `project-quick-onboard` to onboard this repository before editing code." |
 | `solution-direction` | Compare solution options and recommend a direction before implementation starts. | "Use `solution-direction` to propose options before we start implementing the fix." |
 
-</details>
-
-<details>
-<summary><strong>Output and Workflow</strong></summary>
+### Output and Workflow
 
 | Skill | Purpose | Example usage |
 |---|---|---|
 | `output-skill` | Force complete output and avoid placeholders or cut-off generations. | "Use `output-skill` to generate the full component with no placeholders." |
 
-</details>
-
-<details>
-<summary><strong>GSAP and Animation</strong></summary>
+### GSAP and Animation
 
 | Skill | Purpose | Example usage |
 |---|---|---|
-| `gsap-core` | Teach the core GSAP API for standard animation work. | "Use `gsap-core` to animate cards into view with `gsap.to()`." |
-| `gsap-frameworks` | Use GSAP inside Vue, Svelte, and other non-React frameworks. | "Use `gsap-frameworks` to set up animation inside this Nuxt page." |
-| `gsap-performance` | Optimize GSAP animation performance and reduce jank or layout thrashing. | "Use `gsap-performance` to optimize this scroll animation that feels janky." |
-| `gsap-plugins` | Guide usage of GSAP plugins such as ScrollTo, Flip, Draggable, and SplitText. | "Use `gsap-plugins` to add `SplitText` and `Flip` to this interaction." |
-| `gsap-react` | Use GSAP with React, including `useGSAP`, refs, and cleanup. | "Use `gsap-react` to rebuild this hero animation inside a React component." |
-| `gsap-scrolltrigger` | Build scroll-based animation with pinning and scrubbing. | "Use `gsap-scrolltrigger` to create a pinned scroll section for this landing page." |
-| `gsap-timeline` | Choreograph multi-step animation with `gsap.timeline()`. | "Use `gsap-timeline` to synchronize the header, image, and CTA animation." |
-| `gsap-utils` | Use `gsap.utils` helpers such as clamp, mapRange, random, and wrap. | "Use `gsap-utils` to map scroll values into scale and opacity." |
-
-</details>
+| `gsap-core` | Teach the core GSAP API for standard animation work. Origin: imported from the original [`gsap-skills`](../gsap-skills/README.md) repository. | "Use `gsap-core` to animate cards into view with `gsap.to()`." |
+| `gsap-frameworks` | Use GSAP inside Vue, Svelte, and other non-React frameworks. Origin: imported from the original [`gsap-skills`](../gsap-skills/README.md) repository. | "Use `gsap-frameworks` to set up animation inside this Nuxt page." |
+| `gsap-performance` | Optimize GSAP animation performance and reduce jank or layout thrashing. Origin: imported from the original [`gsap-skills`](../gsap-skills/README.md) repository. | "Use `gsap-performance` to optimize this scroll animation that feels janky." |
+| `gsap-plugins` | Guide usage of GSAP plugins such as ScrollTo, Flip, Draggable, and SplitText. Origin: imported from the original [`gsap-skills`](../gsap-skills/README.md) repository. | "Use `gsap-plugins` to add `SplitText` and `Flip` to this interaction." |
+| `gsap-react` | Use GSAP with React, including `useGSAP`, refs, and cleanup. Origin: imported from the original [`gsap-skills`](../gsap-skills/README.md) repository. | "Use `gsap-react` to rebuild this hero animation inside a React component." |
+| `gsap-scrolltrigger` | Build scroll-based animation with pinning and scrubbing. Origin: imported from the original [`gsap-skills`](../gsap-skills/README.md) repository. | "Use `gsap-scrolltrigger` to create a pinned scroll section for this landing page." |
+| `gsap-timeline` | Choreograph multi-step animation with `gsap.timeline()`. Origin: imported from the original [`gsap-skills`](../gsap-skills/README.md) repository. | "Use `gsap-timeline` to synchronize the header, image, and CTA animation." |
+| `gsap-utils` | Use `gsap.utils` helpers such as clamp, mapRange, random, and wrap. Origin: imported from the original [`gsap-skills`](../gsap-skills/README.md) repository. | "Use `gsap-utils` to map scroll values into scale and opacity." |
 
 ## Featured Skill Families
 
@@ -226,6 +216,8 @@ When you install skills with [`install.sh`](./install.sh), the script copies `ll
 - [`install.sh`](./install.sh): copies skills into the selected agent directory
 - [`sync-from-local.sh`](./sync-from-local.sh): syncs local installed skills back into this repo
 - [`skills/`](./skills): the skill catalog itself
+- [`LICENSE`](./LICENSE): project license
+- [`DONATE.md`](./DONATE.md): support and donation information
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=111111&height=120&section=footer" alt="Footer banner">
