@@ -21,7 +21,7 @@
   <img src="https://img.shields.io/badge/Pi-Agent-6D28D9?style=flat-square" alt="Pi">
 </p>
 
-> A portable skill pack designed to work across multiple AI agents, not just Codex.
+> A portable skill pack designed to work across multiple AI agents
 
 <p align="center">
   <img src="https://img.shields.io/badge/Design-Frontend-0F172A?style=for-the-badge&logo=figma&logoColor=white" alt="Design and frontend">
@@ -30,27 +30,6 @@
   <img src="https://img.shields.io/badge/Workflow-Output-7C2D12?style=for-the-badge&logo=markdown&logoColor=white" alt="Workflow and output">
 </p>
 
-## Why This Exists
-
-<table>
-  <tr>
-    <td width="33%" align="center">
-      <img src="https://img.shields.io/badge/Portable-Shared%20Rules-111111?style=for-the-badge&logo=json&logoColor=white" alt="Portable">
-      <br><br>
-      One skill catalog, shared naming, and neutral discovery metadata so the same bundle can travel between agents cleanly.
-    </td>
-    <td width="33%" align="center">
-      <img src="https://img.shields.io/badge/Practical-Install%20Fast-111111?style=for-the-badge&logo=gnubash&logoColor=white" alt="Practical">
-      <br><br>
-      Install everything or only a selected subset with a single script, then keep local skills synced back into the repo.
-    </td>
-    <td width="33%" align="center">
-      <img src="https://img.shields.io/badge/Curated-High%20Signal-111111?style=for-the-badge&logo=readme&logoColor=white" alt="Curated">
-      <br><br>
-      Focused skills for design, debugging, onboarding, GSAP, and output quality instead of a noisy generic catalog.
-    </td>
-  </tr>
-</table>
 
 ## Quick Overview
 
@@ -125,29 +104,7 @@ Install into a custom directory:
 bash codex-global-skills/install.sh --target /path/to/skills
 ```
 
-## Choosing Skills During Install
 
-When the installer runs, it shows the full skill list and lets the user choose interactively.
-
-If nothing is entered, it installs everything.
-
-Install only a few skills:
-
-```bash
-bash codex-global-skills/install.sh --agent claude --skills project-quick-onboard,solution-direction
-```
-
-Or run the normal command and type the selection directly in the terminal:
-
-```bash
-bash codex-global-skills/install.sh --agent cursor
-```
-
-List valid skills:
-
-```bash
-bash codex-global-skills/install.sh --list-skills
-```
 ## Skill Catalog
 
 <details open>
