@@ -23,6 +23,12 @@ Cai cho `Codex`:
 bash codex-global-skills/install.sh
 ```
 
+Mac dinh lenh tren se:
+
+1. hien thi tat ca skills trong terminal
+2. cho user nhap danh sach skill neu muon chon rieng
+3. neu bam `Enter` de trong, script se cai `tat ca`
+
 Cai cho agent cu the:
 
 ```bash
@@ -41,6 +47,30 @@ Neu can chi dinh thu muc thu cong:
 
 ```bash
 bash codex-global-skills/install.sh --target /path/to/skills
+```
+
+## Chon skill khi cai
+
+Mac dinh khi chay lenh cai, terminal se hien tat ca skills va cho user thao tac.
+
+Neu khong nhap gi, script se cai tat ca skills.
+
+Cai mot so skill cu the:
+
+```bash
+bash codex-global-skills/install.sh --agent claude --skills project-quick-onboard,solution-direction
+```
+
+Hoac chay lenh binh thuong roi nhap truc tiep trong terminal:
+
+```bash
+bash codex-global-skills/install.sh --agent cursor
+```
+
+Xem danh sach skill hop le:
+
+```bash
+bash codex-global-skills/install.sh --list-skills
 ```
 
 ## Cach goi skill
