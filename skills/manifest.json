@@ -30,8 +30,16 @@
       "description": "Structured debugging workflow for tracing a bug from symptom to proven root cause."
     },
     {
+      "name": "backend-db-risk-review",
+      "description": "Review backend code for database-related risks such as unsafe transactions, race conditions, integrity issues, and migration hazards."
+    },
+    {
       "name": "merge-conflict-analysis",
       "description": "Analyze code merge conflicts and recommend the safest resolution path."
+    },
+    {
+      "name": "rnd-source-backed-research",
+      "description": "Perform R&D-style research with source-backed findings and citations."
     },
     {
       "name": "frontend-performance-review",
@@ -96,6 +104,10 @@
     {
       "name": "project-quick-onboard",
       "description": "Fast technical onboarding for an unfamiliar repo, stack, structure, and likely entry points."
+    },
+    {
+      "name": "repo-purpose-risk-review",
+      "description": "Evaluate a repository by explaining its purpose, strengths, and risks."
     },
     {
       "name": "redesign-skill",

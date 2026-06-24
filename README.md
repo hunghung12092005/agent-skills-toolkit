@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:2563EB,100:38BDF8&height=180&section=header&text=Portable%20AI%20Skills&fontColor=ffffff&fontSize=42&fontAlignY=36&desc=One%20bundle%20for%20Codex,%20Claude,%20Cursor,%20Gemini,%20OpenCode,%20and%20Pi&descAlignY=58&animation=fadeIn" alt="Portable AI Skills banner">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:2563EB,100:38BDF8&height=180&section=header&text=Portable%20AI%20Skills%20Ver2.2&fontColor=ffffff&fontSize=42&fontAlignY=36&desc=One%20bundle%20for%20Codex,%20Claude,%20Cursor,%20Gemini,%20OpenCode,%20and%20Pi&descAlignY=58&animation=fadeIn" alt="Portable AI Skills banner">
 </p>
 
 <p align="center">
@@ -122,9 +122,12 @@ bash codex-global-skills/install.sh --target /path/to/skills
 | Skill | Purpose | Example usage |
 |---|---|---|
 | `bug-trace-root-cause` | Investigate bugs from symptom to root cause instead of papering over them. | "Use `bug-trace-root-cause` to find out why this API times out randomly." |
+| `backend-db-risk-review` | Review backend code for DB risks like unsafe writes, race conditions, transaction gaps, and migration hazards. | "Use `backend-db-risk-review` to review this order flow before it writes to the database." |
 | `merge-conflict-analysis` | Analyze Git merge conflicts, compare both sides, and recommend the safest resolution. | "Use `merge-conflict-analysis` to resolve this rebase conflict without losing either fix." |
+| `rnd-source-backed-research` | Run R&D-style research with explicit citations when available, especially from GitHub, arXiv, and Google Scholar. | "Use `rnd-source-backed-research` to compare these repos and include source-backed findings." |
 | `frontend-performance-review` | Review frontend performance for leaks, missing cleanup, extra renders, lag, and jank. | "Use `frontend-performance-review` to check whether this page has memory leaks or redundant re-renders." |
 | `project-quick-onboard` | Summarize a new repo quickly: stack, entry points, layout, main flow, and what to read first. | "Use `project-quick-onboard` to onboard this repository before editing code." |
+| `repo-purpose-risk-review` | Evaluate a repository by explaining what it is for, what it does well, and what risks it has. | "Use `repo-purpose-risk-review` to assess whether this repository is worth adopting." |
 | `solution-direction` | Compare solution options and recommend a direction before implementation starts. | "Use `solution-direction` to propose options before we start implementing the fix." |
 
 ### Output and Workflow
@@ -145,7 +148,7 @@ bash codex-global-skills/install.sh --target /path/to/skills
     <td width="25%" align="center">
       <img src="https://img.shields.io/badge/Debug-Investigate-0F172A?style=for-the-badge&logo=sentry&logoColor=white" alt="Debug">
       <br><br>
-      `bug-trace-root-cause` `merge-conflict-analysis` `solution-direction` `frontend-performance-review`
+      `bug-trace-root-cause` `backend-db-risk-review` `merge-conflict-analysis` `rnd-source-backed-research` `repo-purpose-risk-review` `solution-direction` `frontend-performance-review`
     </td>
     <td width="25%" align="center">
       <img src="https://img.shields.io/badge/Workflow-Quality-7C2D12?style=for-the-badge&logo=markdown&logoColor=white" alt="Workflow">
@@ -160,8 +163,11 @@ bash codex-global-skills/install.sh --target /path/to/skills
 | Need | Recommended skill |
 |---|---|
 | Read a new repo quickly | `project-quick-onboard` |
+| Evaluate whether a repo is worth adopting | `repo-purpose-risk-review` |
 | Find the real cause of a bug | `bug-trace-root-cause` |
+| Review backend DB safety before shipping | `backend-db-risk-review` |
 | Resolve a Git or rebase conflict safely | `merge-conflict-analysis` |
+| Research a topic with citations | `rnd-source-backed-research` |
 | Get solution options before implementing | `solution-direction` |
 | Review lag, leaks, or jank | `frontend-performance-review` |
 | Redesign an existing UI | `redesign-skill` |

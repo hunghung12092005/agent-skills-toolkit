@@ -16,9 +16,17 @@ bug-trace-root-cause
   Structured debugging workflow for tracing a bug from symptom to proven root cause.
   Triggers: debug bug, root cause, investigate failure, regression, explain why this bug happens.
 
+backend-db-risk-review
+  Review backend code for database-related risks such as unsafe transactions, race conditions, integrity issues, and migration hazards.
+  Triggers: backend db risk, database risk review, transaction safety, race condition in backend, migration risk, be thao tac db, data corruption risk.
+
 merge-conflict-analysis
   Analyze code merge conflicts and recommend the safest resolution path.
   Triggers: merge conflict, git conflict, rebase conflict, cherry-pick conflict, conflict markers, which side to keep.
+
+rnd-source-backed-research
+  Perform R&D-style research with source-backed findings and citations.
+  Triggers: research this, rnd, investigate landscape, compare tools, validate claim, add sources, github source, arxiv, google scholar.
 
 frontend-performance-review
   Frontend performance and stability review for leaks, jank, excessive re-renders, and missing cleanup.
@@ -83,6 +91,10 @@ output-skill
 project-quick-onboard
   Fast technical onboarding for an unfamiliar repo, stack, structure, and likely entry points.
   Triggers: onboard repo, understand codebase, project overview, where to start in this repo.
+
+repo-purpose-risk-review
+  Evaluate a repository by explaining its purpose, strengths, and risks.
+  Triggers: review this repo, what is this repo for, repo strengths, repo risks, should we adopt this repo, evaluate codebase value.
 
 redesign-skill
   Upgrades an existing website or app without rewriting it from scratch.
