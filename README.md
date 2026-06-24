@@ -1,8 +1,5 @@
-# Codex Global Skills Snapshot
+# Global Skills Snapshot
 
-<p align="center">
-  <a href="./README.md"><img src="https://img.shields.io/badge/Language-EN-black?style=for-the-badge" alt="English"></a>
-</p>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=111111&height=180&section=header&text=Portable%20AI%20Skills&fontColor=ffffff&fontSize=42&fontAlignY=36&desc=One%20bundle%20for%20Codex,%20Claude,%20Cursor,%20Gemini,%20OpenCode,%20and%20Pi&descAlignY=58&animation=fadeIn" alt="Portable AI Skills banner">
@@ -151,60 +148,6 @@ List valid skills:
 ```bash
 bash codex-global-skills/install.sh --list-skills
 ```
-
-## How to Invoke a Skill
-
-You can call a skill directly by name in the prompt. Examples:
-
-```text
-Use `project-quick-onboard` to summarize this repository quickly.
-```
-
-```text
-Use `bug-trace-root-cause` to trace this issue from logs back to the real root cause.
-```
-
-## Featured Skill Families
-
-<table>
-  <tr>
-    <td width="25%" align="center">
-      <img src="https://img.shields.io/badge/Design-Frontend-0F172A?style=for-the-badge&logo=figma&logoColor=white" alt="Design">
-      <br><br>
-      `brandkit` `taste-skill` `redesign-skill` `image-to-code-skill`
-    </td>
-    <td width="25%" align="center">
-      <img src="https://img.shields.io/badge/Debug-Investigate-0F172A?style=for-the-badge&logo=sentry&logoColor=white" alt="Debug">
-      <br><br>
-      `bug-trace-root-cause` `solution-direction` `frontend-performance-review`
-    </td>
-    <td width="25%" align="center">
-      <img src="https://img.shields.io/badge/Animation-GSAP-166534?style=for-the-badge&logo=greensock&logoColor=white" alt="GSAP">
-      <br><br>
-      `gsap-core` `gsap-react` `gsap-scrolltrigger` `gsap-timeline`
-    </td>
-    <td width="25%" align="center">
-      <img src="https://img.shields.io/badge/Workflow-Quality-7C2D12?style=for-the-badge&logo=markdown&logoColor=white" alt="Workflow">
-      <br><br>
-      `project-quick-onboard` `output-skill` `stitch-skill`
-    </td>
-  </tr>
-</table>
-
-## Quick Recommendations
-
-| Need | Recommended skill |
-|---|---|
-| Read a new repo quickly | `project-quick-onboard` |
-| Find the real cause of a bug | `bug-trace-root-cause` |
-| Get solution options before implementing | `solution-direction` |
-| Review lag, leaks, or jank | `frontend-performance-review` |
-| Redesign an existing UI | `redesign-skill`, `taste-skill` |
-| Build a visual direction | `brandkit`, `soft-skill`, `minimalist-skill`, `brutalist-skill` |
-| Generate visual concepts from images | `imagegen-frontend-web`, `imagegen-frontend-mobile` |
-| Build frontend from image references | `image-to-code-skill` |
-| Create GSAP animation flows | `gsap-core`, `gsap-timeline`, `gsap-scrolltrigger`, `gsap-react` |
-
 ## Skill Catalog
 
 <details open>
@@ -263,6 +206,49 @@ Use `bug-trace-root-cause` to trace this issue from logs back to the real root c
 | `gsap-utils` | Use `gsap.utils` helpers such as clamp, mapRange, random, and wrap. | "Use `gsap-utils` to map scroll values into scale and opacity." |
 
 </details>
+
+## Featured Skill Families
+
+<table>
+  <tr>
+    <td width="25%" align="center">
+      <img src="https://img.shields.io/badge/Design-Frontend-0F172A?style=for-the-badge&logo=figma&logoColor=white" alt="Design">
+      <br><br>
+      `brandkit` `taste-skill` `redesign-skill` `image-to-code-skill`
+    </td>
+    <td width="25%" align="center">
+      <img src="https://img.shields.io/badge/Debug-Investigate-0F172A?style=for-the-badge&logo=sentry&logoColor=white" alt="Debug">
+      <br><br>
+      `bug-trace-root-cause` `solution-direction` `frontend-performance-review`
+    </td>
+    <td width="25%" align="center">
+      <img src="https://img.shields.io/badge/Animation-GSAP-166534?style=for-the-badge&logo=greensock&logoColor=white" alt="GSAP">
+      <br><br>
+      `gsap-core` `gsap-react` `gsap-scrolltrigger` `gsap-timeline`
+    </td>
+    <td width="25%" align="center">
+      <img src="https://img.shields.io/badge/Workflow-Quality-7C2D12?style=for-the-badge&logo=markdown&logoColor=white" alt="Workflow">
+      <br><br>
+      `project-quick-onboard` `output-skill` `stitch-skill`
+    </td>
+  </tr>
+</table>
+
+## Quick Recommendations
+
+| Need | Recommended skill |
+|---|---|
+| Read a new repo quickly | `project-quick-onboard` |
+| Find the real cause of a bug | `bug-trace-root-cause` |
+| Get solution options before implementing | `solution-direction` |
+| Review lag, leaks, or jank | `frontend-performance-review` |
+| Redesign an existing UI | `redesign-skill`, `taste-skill` |
+| Build a visual direction | `brandkit`, `soft-skill`, `minimalist-skill`, `brutalist-skill` |
+| Generate visual concepts from images | `imagegen-frontend-web`, `imagegen-frontend-mobile` |
+| Build frontend from image references | `image-to-code-skill` |
+| Create GSAP animation flows | `gsap-core`, `gsap-timeline`, `gsap-scrolltrigger`, `gsap-react` |
+
+
 
 ## Compatibility Metadata
 
