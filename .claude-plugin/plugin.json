@@ -1,0 +1,6 @@
+{
+  "name": "codex-global-skills",
+  "description": "Portable frontend, design, debugging, onboarding, and GSAP skills for Claude and other AI coding agents",
+  "version": "1.0.0",
+  "skills": "./skills/"
+}

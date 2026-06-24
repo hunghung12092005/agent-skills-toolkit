@@ -1,0 +1,9 @@
+{
+  "name": "codex-global-skills",
+  "version": "1.0.0",
+  "description": "Portable frontend, design, debugging, onboarding, and GSAP skills for Cursor, Codex, Claude, Gemini, and similar agents",
+  "author": {
+    "name": "Local Skills Workspace"
+  },
+  "skills": ["skills"]
+}

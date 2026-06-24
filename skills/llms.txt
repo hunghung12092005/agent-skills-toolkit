@@ -1,0 +1,105 @@
+# Codex Global Skills - Index for AI Agents
+
+Use this file to discover which skill to load. Each skill lives in a directory of the same name under `skills/` and contains a `SKILL.md`.
+
+## Skills
+
+brandkit
+  Premium brand-kit generation for logo systems, identity boards, and visual guidelines.
+  Triggers: brand kit, brand guideline, identity system, logo system, visual world, branding board.
+
+brutalist-skill
+  Industrial brutalist UI direction with Swiss-grid, terminal, and tactical interface aesthetics.
+  Triggers: brutalist ui, industrial ui, swiss grid, tactical interface, terminal aesthetic, blueprint style.
+
+bug-trace-root-cause
+  Structured debugging workflow for tracing a bug from symptom to proven root cause.
+  Triggers: debug bug, root cause, investigate failure, regression, explain why this bug happens.
+
+frontend-performance-review
+  Frontend performance and stability review for leaks, jank, excessive re-renders, and missing cleanup.
+  Triggers: frontend performance, memory leak, rerender, jank, lag, cleanup, performance review.
+
+gpt-tasteskill
+  High-end editorial frontend direction with bold layout variance and advanced motion ideas.
+  Triggers: premium ui, awwwards style, editorial layout, strong motion, design upgrade, gpt taste.
+
+gsap-core
+  GSAP core API guidance for basic animation, easing, transforms, and stagger.
+  Triggers: gsap basics, gsap to, gsap from, easing, stagger, javascript animation.
+
+gsap-frameworks
+  GSAP usage in Vue, Svelte, Nuxt, and other non-React frameworks.
+  Triggers: gsap vue, gsap svelte, gsap nuxt, framework animation lifecycle.
+
+gsap-performance
+  GSAP performance guidance for smooth animation and lower layout thrash.
+  Triggers: gsap performance, smooth animation, 60fps, animation optimization, layout thrash.
+
+gsap-plugins
+  GSAP plugin guidance for ScrollTo, Flip, Draggable, SplitText, and related plugins.
+  Triggers: gsap plugins, flip, draggable, splittext, scrollto, motionpath.
+
+gsap-react
+  GSAP patterns for React and Next.js with refs, useGSAP, and cleanup.
+  Triggers: gsap react, usegsap, nextjs animation, react animation cleanup.
+
+gsap-scrolltrigger
+  Scroll-driven GSAP animation with pinning, scrubbing, and trigger setup.
+  Triggers: scrolltrigger, scroll animation, parallax, pin section, scrub animation.
+
+gsap-timeline
+  GSAP timeline sequencing for multi-step animation choreography.
+  Triggers: gsap timeline, animation sequence, choreography, labels, multi-step motion.
+
+gsap-utils
+  GSAP utility helpers like clamp, mapRange, wrap, random, and interpolation.
+  Triggers: gsap utils, clamp, maprange, wrap, normalize, interpolate.
+
+imagegen-frontend-mobile
+  Premium mobile app concept generation through image-first UI exploration.
+  Triggers: mobile app concept, app screen design, ios ui concept, android ui concept.
+
+imagegen-frontend-web
+  Premium website section-by-section image reference generation.
+  Triggers: website concept image, landing page reference, section mockup, web image generation.
+
+image-to-code-skill
+  Image-first workflow that creates or uses design references before implementing frontend code.
+  Triggers: image to code, implement from mockup, code from design image, visual-first frontend.
+
+minimalist-skill
+  Editorial minimalist interface direction with restrained color and clean hierarchy.
+  Triggers: minimalist ui, editorial ui, clean interface, warm monochrome, flat premium design.
+
+output-skill
+  Enforces complete outputs without placeholders or silent truncation.
+  Triggers: full output, no placeholder, exhaustive response, complete file generation.
+
+project-quick-onboard
+  Fast technical onboarding for an unfamiliar repo, stack, structure, and likely entry points.
+  Triggers: onboard repo, understand codebase, project overview, where to start in this repo.
+
+redesign-skill
+  Upgrades an existing website or app without rewriting it from scratch.
+  Triggers: redesign existing project, improve current ui, polish existing frontend, upgrade design.
+
+soft-skill
+  High-end design polish rules for typography, spacing, surfaces, and overall premium feel.
+  Triggers: visual polish, high-end design, premium spacing, typography system, agency quality.
+
+solution-direction
+  Suggests solution directions and tradeoffs without jumping straight into implementation.
+  Triggers: suggest approach, solution options, recommend direction, brainstorm fix, advise first.
+
+stitch-skill
+  Generates DESIGN.md guidance for Google Stitch and similar AI-driven design workflows.
+  Triggers: google stitch, design md, semantic design system, stitch design rules.
+
+taste-skill
+  Anti-slop frontend direction for landing pages, portfolios, and redesigns.
+  Triggers: anti slop frontend, landing page redesign, portfolio redesign, design-taste-frontend.
+
+taste-skill-v1
+  Legacy v1 version of the taste skill for older workflows.
+  Triggers: taste skill v1, legacy frontend skill, design-taste-frontend-v1.
