@@ -30,6 +30,10 @@
       "description": "Structured debugging workflow for tracing a bug from symptom to proven root cause."
     },
     {
+      "name": "merge-conflict-analysis",
+      "description": "Analyze code merge conflicts and recommend the safest resolution path."
+    },
+    {
       "name": "frontend-performance-review",
       "description": "Frontend performance and stability review for leaks, jank, excessive re-renders, and missing cleanup."
     },

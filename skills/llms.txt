@@ -16,6 +16,10 @@ bug-trace-root-cause
   Structured debugging workflow for tracing a bug from symptom to proven root cause.
   Triggers: debug bug, root cause, investigate failure, regression, explain why this bug happens.
 
+merge-conflict-analysis
+  Analyze code merge conflicts and recommend the safest resolution path.
+  Triggers: merge conflict, git conflict, rebase conflict, cherry-pick conflict, conflict markers, which side to keep.
+
 frontend-performance-review
   Frontend performance and stability review for leaks, jank, excessive re-renders, and missing cleanup.
   Triggers: frontend performance, memory leak, rerender, jank, lag, cleanup, performance review.

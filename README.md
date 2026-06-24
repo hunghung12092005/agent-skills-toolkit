@@ -24,7 +24,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Design-Frontend-0F172A?style=for-the-badge&logo=figma&logoColor=white" alt="Design and frontend">
   <img src="https://img.shields.io/badge/Debug-Root_Cause-1F2937?style=for-the-badge&logo=datadog&logoColor=white" alt="Debug and root cause">
-  <img src="https://img.shields.io/badge/Animation-GSAP-166534?style=for-the-badge&logo=greensock&logoColor=white" alt="GSAP animation">
   <img src="https://img.shields.io/badge/Workflow-Output-7C2D12?style=for-the-badge&logo=markdown&logoColor=white" alt="Workflow and output">
 </p>
 
@@ -102,11 +101,6 @@ Install into a custom directory:
 bash codex-global-skills/install.sh --target /path/to/skills
 ```
 
-## Origin Notes
-
-- `taste-skill` and `taste-skill-v1` were imported from the original taste-skill repository and kept here as part of this bundled catalog.
-- All `gsap-*` skills were imported from the original [`gsap-skills`](../gsap-skills/README.md) repository and included here for convenience.
-
 ## Skill Catalog
 
 ### Design and Frontend
@@ -115,7 +109,6 @@ bash codex-global-skills/install.sh --target /path/to/skills
 |---|---|---|
 | `brandkit` | Create premium brand kits, guidelines, logo systems, and identity boards. | "Use `brandkit` to create a brand guideline for an AI security startup." |
 | `brutalist-skill` | Push UI toward an industrial brutalist style with raw Swiss-grid and terminal energy. | "Use `brutalist-skill` to redesign the landing page in an industrial UI direction." |
-| `gpt-tasteskill` | Upgrade frontend UX/UI with editorial styling, motion, AIDA, and less-generic layouts. | "Use `gpt-tasteskill` to make the homepage feel more premium and less generic." |
 | `imagegen-frontend-mobile` | Generate high-end mobile app screen concepts with image generation. | "Use `imagegen-frontend-mobile` to create a 3-screen onboarding concept for a fitness app." |
 | `imagegen-frontend-web` | Generate section-by-section image references for websites and landing pages. | "Use `imagegen-frontend-web` to create image references for 6 sections of a SaaS landing page." |
 | `image-to-code-skill` | Generate a visual concept first, then implement the frontend from that direction. | "Use `image-to-code-skill` to create the hero concept first, then rebuild it in React." |
@@ -123,14 +116,13 @@ bash codex-global-skills/install.sh --target /path/to/skills
 | `redesign-skill` | Upgrade an existing frontend to feel more premium without breaking the product flow. | "Use `redesign-skill` to improve this dashboard without breaking the current flow." |
 | `soft-skill` | Apply high-end visual rules for typography, spacing, shadow, and polish. | "Use `soft-skill` to polish the visual system for the pricing page." |
 | `stitch-skill` | Create semantic `DESIGN.md` files for Google Stitch workflows. | "Use `stitch-skill` to write a `DESIGN.md` for the new component set." |
-| `taste-skill` | Anti-slop frontend skill v2 for landing pages, portfolios, and redesign work. Origin: imported from the original taste-skill repository. | "Use `taste-skill` to design a landing page that feels bolder and less AI-safe." |
-| `taste-skill-v1` | Original v1 version kept for compatibility with older workflows. Origin: imported from the original taste-skill repository. | "Use `taste-skill-v1` because this project still follows the older workflow." |
 
 ### Debug, Review, and Onboarding
 
 | Skill | Purpose | Example usage |
 |---|---|---|
 | `bug-trace-root-cause` | Investigate bugs from symptom to root cause instead of papering over them. | "Use `bug-trace-root-cause` to find out why this API times out randomly." |
+| `merge-conflict-analysis` | Analyze Git merge conflicts, compare both sides, and recommend the safest resolution. | "Use `merge-conflict-analysis` to resolve this rebase conflict without losing either fix." |
 | `frontend-performance-review` | Review frontend performance for leaks, missing cleanup, extra renders, lag, and jank. | "Use `frontend-performance-review` to check whether this page has memory leaks or redundant re-renders." |
 | `project-quick-onboard` | Summarize a new repo quickly: stack, entry points, layout, main flow, and what to read first. | "Use `project-quick-onboard` to onboard this repository before editing code." |
 | `solution-direction` | Compare solution options and recommend a direction before implementation starts. | "Use `solution-direction` to propose options before we start implementing the fix." |
@@ -141,19 +133,6 @@ bash codex-global-skills/install.sh --target /path/to/skills
 |---|---|---|
 | `output-skill` | Force complete output and avoid placeholders or cut-off generations. | "Use `output-skill` to generate the full component with no placeholders." |
 
-### GSAP and Animation
-
-| Skill | Purpose | Example usage |
-|---|---|---|
-| `gsap-core` | Teach the core GSAP API for standard animation work. Origin: imported from the original [`gsap-skills`](../gsap-skills/README.md) repository. | "Use `gsap-core` to animate cards into view with `gsap.to()`." |
-| `gsap-frameworks` | Use GSAP inside Vue, Svelte, and other non-React frameworks. Origin: imported from the original [`gsap-skills`](../gsap-skills/README.md) repository. | "Use `gsap-frameworks` to set up animation inside this Nuxt page." |
-| `gsap-performance` | Optimize GSAP animation performance and reduce jank or layout thrashing. Origin: imported from the original [`gsap-skills`](../gsap-skills/README.md) repository. | "Use `gsap-performance` to optimize this scroll animation that feels janky." |
-| `gsap-plugins` | Guide usage of GSAP plugins such as ScrollTo, Flip, Draggable, and SplitText. Origin: imported from the original [`gsap-skills`](../gsap-skills/README.md) repository. | "Use `gsap-plugins` to add `SplitText` and `Flip` to this interaction." |
-| `gsap-react` | Use GSAP with React, including `useGSAP`, refs, and cleanup. Origin: imported from the original [`gsap-skills`](../gsap-skills/README.md) repository. | "Use `gsap-react` to rebuild this hero animation inside a React component." |
-| `gsap-scrolltrigger` | Build scroll-based animation with pinning and scrubbing. Origin: imported from the original [`gsap-skills`](../gsap-skills/README.md) repository. | "Use `gsap-scrolltrigger` to create a pinned scroll section for this landing page." |
-| `gsap-timeline` | Choreograph multi-step animation with `gsap.timeline()`. Origin: imported from the original [`gsap-skills`](../gsap-skills/README.md) repository. | "Use `gsap-timeline` to synchronize the header, image, and CTA animation." |
-| `gsap-utils` | Use `gsap.utils` helpers such as clamp, mapRange, random, and wrap. Origin: imported from the original [`gsap-skills`](../gsap-skills/README.md) repository. | "Use `gsap-utils` to map scroll values into scale and opacity." |
-
 ## Featured Skill Families
 
 <table>
@@ -161,17 +140,12 @@ bash codex-global-skills/install.sh --target /path/to/skills
     <td width="25%" align="center">
       <img src="https://img.shields.io/badge/Design-Frontend-0F172A?style=for-the-badge&logo=figma&logoColor=white" alt="Design">
       <br><br>
-      `brandkit` `taste-skill` `redesign-skill` `image-to-code-skill`
+      `brandkit` `redesign-skill` `image-to-code-skill`
     </td>
     <td width="25%" align="center">
       <img src="https://img.shields.io/badge/Debug-Investigate-0F172A?style=for-the-badge&logo=sentry&logoColor=white" alt="Debug">
       <br><br>
-      `bug-trace-root-cause` `solution-direction` `frontend-performance-review`
-    </td>
-    <td width="25%" align="center">
-      <img src="https://img.shields.io/badge/Animation-GSAP-166534?style=for-the-badge&logo=greensock&logoColor=white" alt="GSAP">
-      <br><br>
-      `gsap-core` `gsap-react` `gsap-scrolltrigger` `gsap-timeline`
+      `bug-trace-root-cause` `merge-conflict-analysis` `solution-direction` `frontend-performance-review`
     </td>
     <td width="25%" align="center">
       <img src="https://img.shields.io/badge/Workflow-Quality-7C2D12?style=for-the-badge&logo=markdown&logoColor=white" alt="Workflow">
@@ -187,13 +161,13 @@ bash codex-global-skills/install.sh --target /path/to/skills
 |---|---|
 | Read a new repo quickly | `project-quick-onboard` |
 | Find the real cause of a bug | `bug-trace-root-cause` |
+| Resolve a Git or rebase conflict safely | `merge-conflict-analysis` |
 | Get solution options before implementing | `solution-direction` |
 | Review lag, leaks, or jank | `frontend-performance-review` |
-| Redesign an existing UI | `redesign-skill`, `taste-skill` |
+| Redesign an existing UI | `redesign-skill` |
 | Build a visual direction | `brandkit`, `soft-skill`, `minimalist-skill`, `brutalist-skill` |
 | Generate visual concepts from images | `imagegen-frontend-web`, `imagegen-frontend-mobile` |
 | Build frontend from image references | `image-to-code-skill` |
-| Create GSAP animation flows | `gsap-core`, `gsap-timeline`, `gsap-scrolltrigger`, `gsap-react` |
 
 
 
